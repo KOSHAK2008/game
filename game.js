@@ -21,9 +21,6 @@ class Game {
     const generalMoves = this.moves.length;
     const userIndex = this.moves.indexOf(userMove);
     const compIndex = this.moves.indexOf(compMove);
-    console.log(`general:${generalMoves}`)
-    console.log(`user:${userIndex}`)
-    console.log(`comp:${compIndex}`)
     const a = userIndex;
     const b = compIndex;
     const p = (generalMoves - 1) / 2;
